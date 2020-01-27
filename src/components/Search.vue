@@ -1,6 +1,7 @@
 <template>
     <div>
-    <input v-model="searchQuery" @keyup.enter="search"/>    </div>
+      <input v-model="searchQuery" @keyup.enter="search"/>
+    </div>
 </template>
 
 <script>
@@ -26,6 +27,6 @@ export default {
     }
   }
 }
-</script>S
+</script>
 
 <style></style>

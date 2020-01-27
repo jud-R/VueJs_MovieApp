@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <search @search="changeMovieResult"></search>
+    <search @search="changeMovieResults"></search>
   </div>
 </template>
 
@@ -17,8 +17,8 @@ export default {
       movies: []
     }
   },
-  method: {
-    changeMovieResult (results) {
+  methods: {
+    changeMovieResults (results) {
       this.movies = results
     }
   }
