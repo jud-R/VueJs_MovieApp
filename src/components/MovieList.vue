@@ -13,14 +13,14 @@ import MovieListItem from './MovieListItem'
 
 export default {
   name: 'movie-list',
-    components: {
+  components: {
     MovieListItem
   },
   props: {
-      movies: {
-          type: Array,
-          required: true
-      }
+    movies: {
+      type: Array,
+      required: true
+    }
   }
 }
 </script>

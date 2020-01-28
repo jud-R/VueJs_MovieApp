@@ -3,6 +3,7 @@
         <img :src="movie.Poster"/>
         {{movie.Year}}
         {{movie.Title}}
+        <a :href="`https://www.imdb.com/title/${movie.imdbID}`" target="_blank">More</a>
       </li>
 </template>
 
@@ -10,10 +11,10 @@
 export default {
   name: 'movie-list-item',
   props: {
-      movie: {
-          type: Object,
-          required: true
-      }
+    movie: {
+      type: Object,
+      required: true
+    }
   }
 }
 </script>
