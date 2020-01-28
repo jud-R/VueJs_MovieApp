@@ -19,10 +19,10 @@ export default {
     }
   },
   computed: {
-  imageURL () {
-    return this.movie.Poster ==="N/A" ? unknownImage : this.movie.Poster
+    imageURL () {
+      return this.movie.Poster === 'N/A' ? unknownImage : this.movie.Poster
+    }
   }
-}
 }
 </script>
 
