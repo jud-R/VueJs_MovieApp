@@ -86,7 +86,4 @@ describe('components/Search', () => {
           expect(error.exists()).toBe(false)
         })
       }) 
-
-      
-
 })
