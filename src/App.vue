@@ -29,10 +29,10 @@ export default {
 </script>
 <style>
 :root {
-  --blue-darkest: #131C25;
-  --blue-light: #169CFC;
-  --white: #E3E4E5;
-  --grey-light: #919191;
+  --violet-darkest: #5F3C77;
+  --orange-light: #EA5B23;
+  --white: #20221F;
+  --grey-light: #bdb8b8;
   --yellow: #E3B044;
 }
 html {
@@ -47,6 +47,6 @@ body {
 #app {
   min-height: 100vh;
   padding: 2rem 4rem;
-  background-color: var(--blue-darkest);
+  background-color: var(--violet-darkest);
 }
 </style>
