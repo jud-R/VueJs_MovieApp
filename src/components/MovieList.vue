@@ -34,5 +34,9 @@ export default {
   grid-row-gap: 3rem;
   padding: 0;
   margin-top: 4rem;
+  @media screen and (max-width: 600px) {
+    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+    margin-top: 2rem;
+  }
 }
 </style>

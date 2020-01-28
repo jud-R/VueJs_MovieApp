@@ -48,5 +48,8 @@ body {
   min-height: 100vh;
   padding: 2rem 4rem;
   background-color: var(--violet-darkest);
+  @media screen and (max-width: 600px) {
+  padding: 1rem 2rem;
+}
 }
 </style>

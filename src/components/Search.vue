@@ -50,6 +50,13 @@ export default {
     &:focus {
       outline: none;
     }
+    @media screen and (max-width: 900px) {
+      font-size: 4rem;
+    }
+    @media screen and (max-width: 600px) {
+      font-size: 3rem;
+      padding: 1.2rem;
+    }
   }
 }
 .error {

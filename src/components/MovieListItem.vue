@@ -67,6 +67,9 @@ export default {
     object-fit: cover;
     border-radius: 1.5rem;
     box-shadow: 0 0.6rem 1rem rgba(0, 0, 0, 0.4);
+    @media screen and (max-width: 600px) {
+      height: 40rem;
+    }
   }
 }
 </style>
