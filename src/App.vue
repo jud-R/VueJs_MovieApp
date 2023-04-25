@@ -1,18 +1,19 @@
 <template>
   <div id="app">
-    <search @search="changeMovieResults"></search>
+    <search-form @search="changeMovieResults">
+    </search-form>
     <movie-list :movies="movies"></movie-list>
   </div>
 </template>
 
 <script>
-import Search from './components/Search'
+import SearchForm from './components/SearchForm'
 import MovieList from './components/MovieList'
 
 export default {
   name: 'app',
   components: {
-    Search,
+    SearchForm,
     MovieList
   },
   data () {
